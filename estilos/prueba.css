@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+header{
+    background: linear-gradient(to right, rgb(172, 47, 143), #F24D6F, #F6C870);
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+}
+header h1{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 15px;
+
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;    
+}
+nav ul li{
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 10px 20px ;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+main{
+    background-image: url(../img/9e167fa6-f446-483b-8f9c-140376608ad4.jpg);
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+    
+}
+main h2{
+    font-size: 30px;
+    
+}
+main h2{
+    text-align: center;
+    text-shadow: 0 0 2px #0006;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #465CA7;
+    border-bottom: 3px solid #465CA7;
+    padding-bottom: 15px;
+}
+
+
+.container{
+    display: flex;
+}
+.bienvenida{
+    width: 70%;
+}
+.bienvenida .bienv{
+    padding: 20px 0px;
+    
+}
+.comunicacion{
+    width: 30%;
+    display: flex;
+}
+
+.bienvenida,
+.comunicacion{
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 30px;
+    margin: 0 50px;
+   
+}
+.comunica{
+    justify-content: center;
+}
+.bienvenida img{
+    max-width: 300px;
+    box-shadow: 0 0 10px black;
+    border-radius: 18px;
+    margin: 10px 200px;
+}
+.bienv p{
+    padding-top: 10px;
+}
+.comunicacion img{
+    box-shadow: 0 0 7px;
+    width: 200px;
+}
+footer{
+   
+}
