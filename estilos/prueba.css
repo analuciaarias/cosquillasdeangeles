@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing:border-box;
 }
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Mono', monospace; */
 header{
     background: linear-gradient(to right, #465CA7, #465CA7, rgb(172, 47, 143), rgb(172, 47, 143) , #F6C870);
     display: flex;
@@ -13,7 +15,7 @@ header h1{
     font-size: 15px;
     color: white;
     font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     padding: 0 15px;
 
 }
@@ -26,7 +28,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     margin: 10px 20px ;
 }
@@ -51,13 +53,13 @@ main h2,
 .comunica a{
     text-align: center;
     text-shadow: 0 0 2px #0006;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #465CA7;   
 }
 main h2,
 .comunicacion h5{
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     border-bottom: 3px solid #465CA7;
     padding-bottom: 15px;
 }
@@ -121,4 +123,19 @@ footer{
     width: 35%;
     height: 250px;
     margin: 0 50px;
+}
+.servicios ul{
+    
+    max-width: 100%;
+
+}
+.servicios ul li{
+    width: 30%;
+    display: inline-block;
+}
+.servicios img{
+    filter: drop-shadow(2px 4px 6px black);
+    max-width: 100%;
+    margin: 0px 90px;
+    padding: 30px 20px;
 }
