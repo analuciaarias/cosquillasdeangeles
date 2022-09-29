@@ -36,6 +36,9 @@ nav ul li a{
     color: whitesmoke;
     text-decoration: none;
 }
+nav ul li a.active{
+    background-color: rgba(0,0,0,0.3);
+}
 main{
     background-image: url(../img/9e167fa6-f446-483b-8f9c-140376608ad4.jpg);
     width: 100%;
@@ -69,6 +72,7 @@ main h2,
     font-size: 12px;
     font-weight: 400;
     padding: 15px;
+    font-family: 'Roboto Mono', monospace; ;
 }
 .container{
     display: flex;
@@ -93,7 +97,7 @@ main h2,
     border: 3px solid gray;
     border-radius: 10px;
     background-color: white;
-    padding: 20px 30px;
+    padding: 20px 30px 10px 30px;
     margin: 0 50px;
 }
 .bienvenida img{
@@ -136,6 +140,33 @@ footer{
 .servicios img{
     filter: drop-shadow(2px 4px 6px black);
     max-width: 100%;
-    margin: 0px 90px;
-    padding: 30px 20px;
+    margin: 0px 60px;
+    padding: 20px 20px;
+}
+.serviciosback{
+    background-image: url(../img/9e167fa6-f446-483b-8f9c-140376608ad4.jpg);
+    height: 2000px;
+}
+.servicioDetalles div{
+    border: 3px solid #465CA7;
+    background-color: white;
+    border-radius: 10px;
+    margin: 16px 40px;
+    padding: 30px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.servicioDetalles h3{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 15px;
+    font-family: 'Roboto Mono', monospace;
+    color: #465CA7; 
+    border-bottom: 3px solid #465CA7;
+}
+.servicioDetalles p,
+.container .bienvenida p{
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
 }
